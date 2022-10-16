@@ -17,5 +17,5 @@
 
 ## Cài đặt
 ```
-npm run prod
+yarn run prod
 ```
