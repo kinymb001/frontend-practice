@@ -1,11 +1,11 @@
-    const btn = document.querySelector(".manu-bar");
-    const menu = document.querySelector(".btn-menu-header");
-    const btnClose = document.querySelector("#btnCloseHeader");
+const btnMenu = document.querySelector('.icon-menu');
+const Menu =document.querySelector('.menu_mobile');
+const btnClose = document.querySelector('.mobile_close');
 
-    btn.onclick = function(){
-        menu.style.display = "block";
-    }
+btnMenu.onclick = function () {
+    Menu.style.display = 'block';
+}
 
-    btnClose.onclick = function(){
-        menu.style.display = "none";
-    }
+btnClose.onclick = function () {
+    Menu.style.display = 'none';
+}
